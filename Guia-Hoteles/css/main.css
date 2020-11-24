@@ -1,0 +1,26 @@
+.jumbotron {
+    background-color: purple;
+    color:white;
+    font-weight: bold;
+} 
+.btn{
+    background-color:purple;
+    color:white;
+}
+.btn:hover{
+    background-color:yellow;
+    color:black;
+}
+
+.footer{
+    background-color:purple;
+    color:white;
+    padding:10px 20px;
+    margin-top:20px;
+}
+
+.card-hotel{
+    flex: 1 200px;
+    padding: 2px 5px;
+    margin-top:10px;
+}
