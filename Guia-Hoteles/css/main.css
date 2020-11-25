@@ -1,10 +1,11 @@
 .jumbotron {
-    background-color: purple;
+    background-color:#b1315d;
     color:white;
     font-weight: bold;
+    margin-top:56px;
 } 
 .btn{
-    background-color:purple;
+    background-color:#b1315d;
     color:white;
 }
 .btn:hover{
@@ -13,7 +14,7 @@
 }
 
 .footer{
-    background-color:purple;
+    background-color:#b1315d;
     color:white;
     padding:10px 20px;
     margin-top:20px;
