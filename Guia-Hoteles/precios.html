@@ -11,15 +11,21 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    
+
     <title>Easy Shop</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-between">
         <a class="navbar-brand" href="./">
             <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             Easy Shop</a>
+        <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="oi oi-magnifying-glass"></span></button>
+        </form>
+    </nav>
+    <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top" style="top:56px;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,56 +41,69 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="./precios.html">Prices</a>
-                  </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
-
             </ul>
         </div>
     </nav>
-    
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Easy Shop</h1>
-            <p class="lead">Find our products in our online shop...</p>
-        </div>
-    </div>
-    
 
-    <div class="container">
+    <div class="container" style="margin-top:112px;">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Prices</li>
+                <li class="breadcrumb-item"><a href="./">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Prices</li>
             </ol>
-          </nav>
-        <table class="table">
-            <thead>
-                <th>Producto</th>
-                <th>S</th>
-                <th>M</th>
-                <th>X</th>
-                <th>XL</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Polo Sybilla</td>
-                    <td>30cm</td>
-                    <td>70cm</td>
-                    <td>90cm</td>
-                    <td>120cm</td>
-                </tr>
-                <tr>
-                    <td>Polo básico Topitop</td>
-                    <td>33cm</td>
-                    <td>74cm</td>
-                    <td>84cm</td>
-                    <td>110cm</td>
-                </tr>
-            </tbody>
- 
-        </table>
+        </nav>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <th>Producto</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>X</th>
+                    <th>XL</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Polo Sybilla</td>
+                        <td>30cm</td>
+                        <td>70cm</td>
+                        <td>90cm</td>
+                        <td>120cm</td>
+                    </tr>
+                    <tr>
+                        <td>Polo básico Topitop</td>
+                        <td>33cm</td>
+                        <td>74cm</td>
+                        <td>84cm</td>
+                        <td>110cm</td>
+                    </tr>
+                    <tr>
+                        <td>Polo dama Paris</td>
+                        <td>37cm</td>
+                        <td>54cm</td>
+                        <td>74cm</td>
+                        <td>100cm</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header bg-primary text-white">
+                    Tarjetas aceptadas
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Tarjeta VIP</li>
+                    <li class="list-group-item">Tarjeta Básica</li>
+                    <li class="list-group-item">Tarjeta Black</li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 
     <footer class="footer">

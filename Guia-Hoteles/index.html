@@ -16,135 +16,138 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-flex justify-content-between">
         <a class="navbar-brand" href="./">
-        <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-        Easy Shop</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="./">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./precios.html">Prices</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Easy Shop</a>
+        <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="oi oi-magnifying-glass"></span></button>
+        </form>
     </nav>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Easy Shop</h1>
-            <p class="lead">Find our products in our online shop...</p>
+    <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top" style="top:56px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./precios.html">Prices</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
-
-
+    </nav>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="margin-top:112px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img style="height:500px;" src="https://www.lastraperas.com/static/d1063b68ae509907c29f632baed16f67/ec6c5/001-web-mas-grande-sm.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
     <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page" >Home</li>
-            </ol>
-          </nav>
-        <div class="row">
-            <div class="col-sm-4">
-                <p>
-                <h3>¿Quiénes somos?</h3>
-                <p>Somos una tienda Online, donde puedes encontrar miles de productos</p>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p>
-                <h3>¿Cómo funciona?</h3>
-                <p>Busca y adquiere los productos de acuerdo a tu preferencia</p>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <p>
-                <h3>¿Nuestra Misión?</h3>
-                <p>Ofrecer los mejores productos a nuestros clientes </p>
-                </p>
-            </div>
-        </div>
+        <h1 class="header">Ofertas recomendadas</h1>
         <hr>
         <div class="d-flex flex-wrap flex-row-reverse">
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 1</h4>
-                    <p>Lorem ipsum dolor sit amet conto beatae!</p>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/881772213_2?wid=1004&hei=1500&crop=248,0,1004,1500&qlt=70"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TOPITOP</h5>
+                    <h6 class="card-subtitle text-muted">Polo mujer de algodon</h6>
+                    <p class="card-text">Online - 10$</p>
                 </div>
-                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
             </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 2</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem hic dolorem expedita, inventore
-                        a quas dolore sit cumque obcaecati, placeat natus aliquam odit ipsum aut. Voluptatibus vero iste
-                        quasi et.</p>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://topitop.vteximg.com.br/arquivos/ids/184419-302-385/1779021_1.jpg?v=637297591417070000"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MARITIMO</h5>
+                    <h6 class="card-subtitle text-muted">Polo mujer clasico</h6>
+                    <p class="card-text">Online - 10$</p>
                 </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/881733342_1?q=i?wid=800&hei=800&qlt=70"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">XIOMI</h5>
+                    <h6 class="card-subtitle text-muted">Polo Básico mujer</h6>
+                    <p class="card-text">Online - 10$</p>
+                </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://topitop.vteximg.com.br/arquivos/ids/184419-302-385/1779021_1.jpg?v=637297591417070000"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TOPITOP</h5>
+                    <h6 class="card-subtitle text-muted">Polo Básico Topitop</h6>
+                    <p class="card-text">Online - 10$</p>
+                </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/17489260_1?wid=1004&hei=1500&crop=248,0,1004,1500&qlt=70"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TOPITOP</h5>
+                    <h6 class="card-subtitle text-muted">Polo Básico Topitop</h6>
+                    <p class="card-text">Online - 10$</p>
+                </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/881691531_1?q=i?wid=800&hei=800&qlt=70"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">XIOMI</h5>
+                    <h6 class="card-subtitle text-muted">Polo Básico Topitop</h6>
+                    <p class="card-text">Online - 10$</p>
+                </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://topitop.vteximg.com.br/arquivos/ids/184419-302-385/1779021_1.jpg?v=637297591417070000"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SYBILLA</h5>
+                    <h6 class="card-subtitle text-muted">Polo Básico Topitop</h6>
+                    <p class="card-text">Online - 10$</p>
+                </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between">
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/881923735_1?wid=1004&hei=1500&crop=248,0,1004,1500&qlt=70"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">XIOMI</h5>
+                    <h6 class="card-subtitle text-muted">Polo Básico Topitop</h6>
+                    <p class="card-text">Online - 10$</p>
+                </div>
+                <button class="btn btn-agregar"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL
+                    CARRITO</button>
+            </div>
 
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 3</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum id dolor doloremque, aperiam
-                        quasi
-                        non est veritatis perspiciatis magni archit</p>
-                </div>
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 4</h4>
-                    <p>Lorem ipsum libero, incidunt magnam assumenda quos cupiditate minima possimus commodi, sit a
-                        deleniti vitae necessitatibus ratione omnis laborum.</p>
-                </div>
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 5</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adiinventore adipisci? Quia ullam dicta maiores beatae qut
-                        quas? Vitae.</p>
-                </div>
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 6</h4>
-                    <p>Lorem ipsum, dolor sit asse quae voluptatibus porro nesciunt ipsa placeat. Odit vero soluta
-                        praesentium vitae sequi?</p>
-                </div>
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 7</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur porro praesentium aliquam
-                        architecto odit voluptatem inventore obcaecati ipsum! Doloremque, beatae aut.to soluta dolorum
-                        expedita commodi.</p>
-                </div>
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
-            <div class="card-hotel d-flex flex-column justify-content-between">
-                <div>
-                    <h4>Producto 8</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam vitae aspernatur quam aperiam
-                        quis. Atque neque, voluptatem magnam ipsum impedit hic ipsa voluptates aut reiciendis vitae,
-                        quis ad officiis perferendis.</p>
-                </div>
-                <button class="btn"><span class="oi oi-cart producto-agregar-icon"></span>AÑADIR AL CARRITO</button>
-            </div>
         </div>
     </div>
 
