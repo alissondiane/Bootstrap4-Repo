@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    
+
     <title>Easy Shop</title>
 </head>
 
@@ -27,41 +27,84 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="./">Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="./about.html">About us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./precios.html">Prices</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
-
             </ul>
         </div>
     </nav>
-    
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Easy Shop</h1>
             <p class="lead">Find our products in our online shop...</p>
         </div>
     </div>
-    
+
 
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">About</li>
+                <li class="breadcrumb-item"><a href="./">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
             </ol>
-          </nav>
-        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cum deserunt iste porro nam adipisci dolorem
-            aperiam quae iusto vero? Accusantium doloremque eligendi similique dolorem vitae error illum autem
-            minus!</span>
+        </nav>
+        <h1>Dejame tu comentario</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre..." id="nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su apellido..." id="apellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="Ingrese su email..." id="email">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-9">
+                    <label for="domicilio">Domicilio</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su domicilio..." id="domicilio">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="provincia">Provincia</label>
+                    <select id="provincia" class="form-control">
+                      <option selected>Lima</option>
+                      <option>Barranca</option>
+                      <option>Callao</option>
+                      <option>Canta</option>
+                      <option>Cañete</option>
+                      <option>Huaral</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario</label>
+                <textarea  class="form-control" id="comentario" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Quiero que me contacten
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+        </form>
+
     </div>
 
     <footer class="footer">
