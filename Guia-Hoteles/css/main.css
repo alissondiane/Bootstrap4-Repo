@@ -9,15 +9,17 @@
     font-weight: bold;
     margin-top:56px;
 } 
-.btn{
+
+.btn-agregar{
     background-color:#b1315d;
     color:white;
 }
+
 .menu{
     background-color:#b1315d;
     color:white;
 }
-.btn:hover{
+.btn-agregar:hover{
     background-color: #495057;
     color: white;
 }
