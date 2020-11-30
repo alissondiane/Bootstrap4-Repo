@@ -21,8 +21,9 @@
             <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             Easy Shop</a>
         <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="oi oi-magnifying-glass"></span></button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span
+                    class="oi oi-magnifying-glass"></span></button>
         </form>
     </nav>
     <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top" style="top:56px;">
@@ -56,53 +57,82 @@
                 <li class="breadcrumb-item active" aria-current="page">Prices</li>
             </ol>
         </nav>
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <th>Producto</th>
-                    <th>S</th>
-                    <th>M</th>
-                    <th>X</th>
-                    <th>XL</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Polo Sybilla</td>
-                        <td>30cm</td>
-                        <td>70cm</td>
-                        <td>90cm</td>
-                        <td>120cm</td>
-                    </tr>
-                    <tr>
-                        <td>Polo básico Topitop</td>
-                        <td>33cm</td>
-                        <td>74cm</td>
-                        <td>84cm</td>
-                        <td>110cm</td>
-                    </tr>
-                    <tr>
-                        <td>Polo dama Paris</td>
-                        <td>37cm</td>
-                        <td>54cm</td>
-                        <td>74cm</td>
-                        <td>100cm</td>
-                    </tr>
-                </tbody>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#precio" role="tab"
+                    aria-controls="compara-tab" aria-selected="true">Compara</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="tarjeta-tab" data-toggle="tab" href="#tarjeta" role="tab"
+                    aria-controls="tarjeta-tab" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="comentario-tab" data-toggle="tab" href="#comentario" role="tab"
+                    aria-controls="comentario-tab" aria-selected="false">Comentario</a>
+            </li>
+        </ul>
+        <div class="tab-content pt-3" id="myTabContent">
+            <div class="tab-pane fade show active" id="precio" role="tabpanel" aria-labelledby="home-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Producto</th>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>X</th>
+                            <th>XL</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Polo Sybilla</td>
+                                <td>30cm</td>
+                                <td>70cm</td>
+                                <td>90cm</td>
+                                <td>120cm</td>
+                            </tr>
+                            <tr>
+                                <td>Polo básico Topitop</td>
+                                <td>33cm</td>
+                                <td>74cm</td>
+                                <td>84cm</td>
+                                <td>110cm</td>
+                            </tr>
+                            <tr>
+                                <td>Polo dama Paris</td>
+                                <td>37cm</td>
+                                <td>54cm</td>
+                                <td>74cm</td>
+                                <td>100cm</td>
+                            </tr>
+                        </tbody>
 
-            </table>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header bg-primary text-white">
-                    Tarjetas aceptadas
+                    </table>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Tarjeta VIP</li>
-                    <li class="list-group-item">Tarjeta Básica</li>
-                    <li class="list-group-item">Tarjeta Black</li>
-                </ul>
+            </div>
+            <div class="tab-pane fade" id="tarjeta" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header bg-primary text-white">
+                            Tarjetas aceptadas
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Tarjeta VIP</li>
+                            <li class="list-group-item">Tarjeta Básica</li>
+                            <li class="list-group-item">Tarjeta Black</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="comentario" role="tabpanel" aria-labelledby="contact-tab">
+                <span>Deja tu comentario...
+                </span>
             </div>
         </div>
+
+
+
+
+      
 
     </div>
 
