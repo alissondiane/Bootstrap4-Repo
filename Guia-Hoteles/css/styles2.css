@@ -1,0 +1,51 @@
+.header {
+  color: #b1315d;
+  margin-top: 10px; }
+
+.jumbotron {
+  background-color: #b1315d;
+  color: white;
+  font-weight: bold;
+  margin-top: 56px; }
+
+.btn-agregar {
+  background-color: #b1315d;
+  color: white; }
+
+.menu {
+  background-color: #b1315d;
+  color: white; }
+
+.btn-agregar:hover {
+  background-color: #495057;
+  color: white; }
+
+.breadcrumb {
+  background-color: white; }
+
+.footer {
+  background-color: #b1315d;
+  color: white;
+  padding: 10px 20px;
+  /*
+    margin-top:20px;
+    margin-bottom:0px;ç*/
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.card-hotel {
+  flex: 1 200px;
+  padding: 2px 5px;
+  margin-top: 10px; }
+
+.card-about {
+  text-align: center; }
+
+.card-about h3 {
+  color: #b1315d; }
+
+.footer-address-icon {
+  padding: 10px; }
+
+.producto-agregar-icon {
+  padding: 10px; }

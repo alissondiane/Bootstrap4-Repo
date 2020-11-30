@@ -1,0 +1,66 @@
+$yellow: #FFBD33;
+$fucsia: #ac37e2;
+
+$gray: #495057;
+
+@mixin margenes($top,$bottom){
+    margin-top:$top;
+    margin-bottom:$bottom;
+}
+
+.header{
+    color:$fucsia;
+    margin-top:10px;
+
+} 
+.jumbotron {
+    background-color:$fucsia;
+    color:white;
+    font-weight: bold;
+    margin-top:56px;
+} 
+
+.btn-agregar{
+    background-color:$fucsia;
+    color:white;
+}
+
+.menu{
+    background-color:$fucsia;
+    color:white;
+}
+.btn-agregar:hover{
+    background-color:$gray;
+    color: white;
+}
+.breadcrumb{
+    background-color: white;
+}
+
+.footer{
+    background-color:$fucsia;
+    color:white;
+    padding:10px 20px;
+    @include margenes(20px,0px);
+}
+
+.card-hotel{
+    flex: 1 200px;
+    padding: 2px 5px;
+    margin-top:10px;
+}
+
+.card-about{
+   text-align:center;
+}
+.card-about h3{
+    color:$fucsia;
+ }
+
+.footer-address-icon{
+    padding:10px;
+}
+
+.producto-agregar-icon{
+    padding:10px;
+}
